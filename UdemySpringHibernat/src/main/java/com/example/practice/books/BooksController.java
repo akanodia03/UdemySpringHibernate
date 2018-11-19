@@ -1,4 +1,4 @@
-package com.example.practice;
+package com.example.practice.books;
 
 import java.util.Arrays;
 import java.util.List;
@@ -13,7 +13,7 @@ public class BooksController {
 	@GetMapping("/books")
 	public List<Book> getAllBooks(){
 		
-		return Arrays.asList(new Book(1l,"Masters in Spring","Aditya kanodia"));
+		return Arrays.asList(new Book(1l,"Masters in Spring 501","Aditya kanodia"));
 	}
 
 }
